@@ -1,0 +1,59 @@
+
+<html>
+    <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+     <title>Форма</title>
+
+    </head>
+    <body text="#000000" bgcolor="#B0C4DE" link="#4A70E2" vlink="#4A70E2" alink="#7096E2" >
+        <table  width="55%" height="60%" bgcolor="white">
+        <form action="/my-handling-form-page" method="post">
+            <tr bgcolor="#C0C0C0">
+                <td colspan="2"><h2>Оформить заказ</h2></td>
+                
+            </tr> 
+        
+                <tr>
+                    <td>
+                <P><label>Имя</label></td>
+                    <td> <input type="text" id="name" name="user_name"></P></td></tr>
+                    <tr>
+                        <td>
+                <P><label>Телефон</label></td>
+                    <td> <input type="text" id="name" name="user_name"></td></P></tr>
+                    <tr>
+                        <td>
+                    <P><label>Адрес</label></td>
+                        <td> <textarea></textarea></P></td>
+                        <tr>
+                            <td>
+                <P> <label>Способ оплаты:</label></td>
+                    <td>   <input type="radio">наличные<br>
+                    <input type="radio">картой<br>
+                    <input type="radio">безналичный расчет<br></P></td></tr>
+                    <tr>
+                        <td>
+                    <P> <label>Желаемый день доставки:</label></td>
+                        <td>
+                        </td></P></tr>
+                      <tr><select name="user_profile_color_1">
+                        <option value="1">Понедельник</option>
+                        <option value="2">Вторник</option>
+                        <option value="3">Среда</option>
+                        <option value="4">Четверг</option>
+                        <option value="5">Пятница</option>
+                        <option value="6">Суббота</option>
+                        <option value="7">Воскреснье</option>
+                      </select>
+                        <td>
+                      <P> <label>Дополнительно:</label></td>
+                        <td> <input type="checkbox">перед доставкой свяжитесь со мной<br>
+                        <input type="checkbox">курьер должен быть не трезвый</td>
+                        <br>
+                        </P></tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="button" value="Отправить"></td>
+          </form>
+        </table>
+ </html> 

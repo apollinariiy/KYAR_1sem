@@ -1,0 +1,45 @@
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top:25px; /*делаем отступ сверху*/
+    background:#d8a7f5; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+    height: 50px; /*задаем высоту*/
+  }
+  a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#ef44ff; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+    color:#fff; /*меняем цвет ссылок*/
+    padding:0px 15px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    line-height:50px; /*ровняем меню по вертикали*/
+    display: block; 
+    border-right: 1px solid #d8a7f5; /*добавляем бордюр справа*/
+  }
+  a:hover {
+    background:#d8a7f5;/*добавляем эффект при наведении*/
+  }
+  li {
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+  }
+   /*Стили для скрытого выпадающего меню*/
+   li > ul {
+          position:absolute;
+          top:25px;
+          display:none;   
+      }
+       
+  @media only screen and (max-width: 560px){
+     
+     .h1 { position:absolute;
+          top:25px;
+          display:none; }
+      /*Делаем скрытую часть видимой*/
+      li:hover > ul {
+          display:block; 
+          width:250px;  /*Задаем ширину выпадающего меню*/      
+      }
+     li:hover > ul > li {
+          float:none; /*Убираем горизонтальное позиционирование*/
+      } 
+  }

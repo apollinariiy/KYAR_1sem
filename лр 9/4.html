@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid {
+ display:grid;
+ grid-template-columns:50px 450px 225px;
+ grid-template-rows:150px 300px 90px;
+ grid-gap: 5px;
+ justify-content: center;
+ 
+ }
+ .div1 {
+    writing-mode: vertical-lr; 
+     text-orientation: upright;
+     text-align: center;
+     font-size: 20px;  
+ background: rgb(226, 170, 248);
+ grid-row-start: 1;
+ grid-row-end: 3;
+ grid-column-start: 1;
+ grid-column-end: 2;
+ }
+ h1{font-size: 25px;}
+ .div2 {
+ background:rgb(226, 170, 248);
+ padding:10px 20px 20px 20px;
+ grid-row-start: 1;
+ grid-row-end: 2;
+ grid-column-start: 2;
+ grid-column-end: 4;
+ }
+ .div3{
+    background:rgb(226, 170, 248);
+    padding:20px 20px 20px 20px;
+ }
+ .div4 {
+ background:rgb(226, 170, 248);
+ padding:10px 10px 10px 10px;
+ grid-row-start: 3;
+ grid-row-end:4;
+ grid-column-start: 1;
+ grid-column-end: 4;
+ }
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="div1">
+            <a href="">Задание 1</a>
+            <a href="">Задание 2</a>
+            <a href="">Задание 3</a>
+            <a href="">Задание 4</a>
+        </div>
+        <div class="div2"><h1>CSS Grid</h1>
+            Грид — это макет для сайта (его схема, проект).
+
+
+            Грид-модель позволяет размещать контент сайта (располагать его определенным образом, позиционировать). Она позволяет создавать структуры, необходимые для обеспечения отзывчивости сайтов на различных устройствах. </div>
+        <div class="div3">Хотя многие макеты могут быть отображены с помощью Grid или Flexbox, у каждого есть свои особенности. Grid обеспечивает двухмерное выравнивание, использует нисходящий подход к макету, допускает явное перекрытие элементов и обладает более мощными связующими возможностями. Flexbox фокусируется на распределении пространства по оси, использует более простой восходящий подход к макету, может использовать систему переноса строк на основе размера контента для управления своей вторичной осью и опирается на базовую иерархию разметки для построения более сложных макетов.
+
+            Во всех примерах будет рассмотрен стандартный синтаксис. Если вы захотите адаптировать синтаксис для IE10-11 и Microsoft Edge.</div>
+        <div class="div3">W3C описывает модуль CSS Grid Layout как систему двумерного макета, оптимизированного для дизайна пользовательского интерфейса. Главная идея, лежащая в основе макета сетки, заключается в разделении веб-страницы на столбцы и строки. В образовавшиеся области сетки можно помещать элементы сетки.</div>
+        <div class="div4">Сетка (grid) представляет собой набор пересекающихся горизонтальных и вертикальных линий, делящих пространство grid-контейнера на области сетки, в которые могут быть помещены элементы сетки.Линии сетки (grid lines) — это невидимые горизонтальные и вертикальные разделительные линии, они существуют по обе стороны от строки и столбца.</div>
+        </div>
+        
+</body>
+</html>

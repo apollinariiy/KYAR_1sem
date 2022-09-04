@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>5 задание</title>
+    <style>
+      .treyg {
+        stroke: red;
+      }
+      .treyg:hover {
+        stroke: black;
+        transition: 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <svg
+      id="svg1"
+      width="300"
+      height="300"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <radialGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="20%" style="stop-color: rgb(134, 2, 185)" />
+        <stop offset="90%" style="stop-color: rgb(27, 1, 43)" />
+      </radialGradient>
+      <circle r="100" cx="150" cy="150" fill="url(#grad2)">
+        <animate
+          attributeName="fill"
+          from="black"
+          to="green"
+          dur="2s"
+          repeatCount="indefinite"
+          begin="svg1.click"
+        />
+      </circle>
+    </svg>
+
+    <svg
+      id="svg2"
+      width="300"
+      height="300"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <rect
+        x="10"
+        y="40"
+        width="215"
+        height="215"
+        stroke="red"
+        fill="red"
+        stroke-width="5"
+      >
+        <animate
+          attributeName="stroke"
+          from="gray"
+          to="blue"
+          dur="1.5s"
+          repeatCount="indefinite"
+          begin="svg2.click"
+        />
+      </rect>
+    </svg>
+
+    <svg
+      width="400"
+      height="300"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <ellipse
+        cx="200"
+        cy="140"
+        rx="190"
+        ry="100"
+        stroke="green"
+        fill="green"
+        stroke-width="5"
+      />
+    </svg>
+
+    <svg
+      class="treyg"
+      width="400"
+      height="300"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color: green; stop-opacity: 1" />
+        <stop offset="80%" style="stop-color: orange; stop-opacity: 1" />
+      </linearGradient>
+      <polygon
+        points="5,250 115,50 230,250"
+        stroke-width="5"
+        fill="url(#grad1)"
+      />
+    </svg>
+
+    <svg
+      width="90%"
+      height="300"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <polyline
+        points="30,0 600,0 550,50 2500,50"
+        fill="none"
+        stroke="purple"
+        stroke-width="5"
+      />
+    </svg>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+.conteiner{
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+  display: flex; 
+  flex-flow: row wrap; 
+}
+.conteiner >div{
+    margin-right: 25px;
+    border: 2px solid black;
+}
+.content{
+    width: 800px;
+}
+iframe{
+    width: 395px;
+    height: 250px;
+}
+.vertical-menu{
+    width: 100px;
+    height: 200px;
+}
+ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+ /*делаем отступ сверху*/
+  background:#bd9be4; /*добавляем фон всему меню*/
+  height: 50px; /*задаем высоту*/
+}
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#bd9be4; /*добавляем фон к пункту меню*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 15px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 1px solid #bd9be4; /*добавляем бордюр справа*/
+
+}
+a:hover {
+  background:#c253d8;/*добавляем эффект при наведении*/
+}
+li {
+  float:none; /*Размещаем список горизонтально для реализации меню*/
+  position:relative; /*задаем позицию для позиционирования*/
+}
+     
+    /*Стили для скрытого выпадающего меню*/
+    li > ul {
+        position:absolute;
+        top:25px;
+        display:none;   
+    }
+     
+    @media only screen and (max-width: 560px){
+   
+   .h1 { position:absolute;
+        top:25px;
+        display:none; }
+    /*Делаем скрытую часть видимой*/
+    li:hover > ul {
+        display:block; 
+        width:250px;  /*Задаем ширину выпадающего меню*/      
+    }
+   li:hover > ul > li {
+        float:none; /*Убираем горизонтальное позиционирование*/
+        
+    } 
+    .vertical-menu{
+    width: 100px;
+    height: 50px;
+}
+}

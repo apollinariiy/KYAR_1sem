@@ -1,0 +1,9 @@
+$font_col:rgb(0, 255, 98);
+$font_sz:6px;
+
+#text {
+    fill: $font_col;
+    font-size: $font_sz;
+    text-anchor: middle;
+    text-align: center;
+}

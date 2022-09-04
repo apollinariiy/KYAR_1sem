@@ -1,0 +1,55 @@
+body {
+  background-color: lightgrey;
+}
+
+.text_zad1 {
+  fill: green;
+  text-align: center;
+  font-size: 36px;
+}
+
+.svg_zad1 {
+  margin: 7% 0 0 40%;
+}
+
+.svg_zad4_el1 {
+  stroke: purple;
+  stroke-width: 3px;
+}
+
+.svg_zad4_el2 {
+  stroke: red;
+  stroke-width: 3px;
+}
+
+.svg_zad4_el3 {
+  stroke: yellow;
+  stroke-width: 3px;
+}
+
+.svg_zad4_el4 {
+  stroke: rgb(30, 221, 30);
+  stroke-width: 3px;
+}
+
+.svg_zad4_el5 {
+  stroke: blue;
+  stroke-width: 3px;
+}
+
+.jop {
+  font-family: "Arial Black";
+  color: crimson;
+  font-size: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: block;
+  font-family: arial;
+}
+
+/*# sourceMappingURL=style.css.map */

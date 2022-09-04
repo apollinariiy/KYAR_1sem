@@ -1,0 +1,21 @@
+.nav li a {background: url(labs/facultet.png) no-repeat 0 0;}
+                .nav .pim a:hover {background-position: 0 -90px;}
+                .nav .xtit a:hover {background-position: 0 -63px;}
+                .nav .fit a:hover {background-position: 0 -30px;}
+ul{list-style-type: none;   
+        display: block;       
+}
+
+li{
+    float: left;
+}
+
+li a {
+        display: inline-block; /*для плавающих элементов значение block*/
+        border: 1px solid black;
+        padding: 5px 15px 5px 35px;
+        text-decoration: none;
+        color: purple;
+        
+        
+}    

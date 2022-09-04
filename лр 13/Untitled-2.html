@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="name"></p>
+<p id="familia"></p>
+<p id="otchestvo"></p>
+<p id="date"></p>
+<script>
+txt="<info>";
+txt=txt+"<name>Полина</name>";
+txt=txt+"<familia>Глушеня</familia>";
+txt=txt+"<otchestvo>Андреевна</otchestvo>";
+txt=txt+"<date>2004</date>";
+txt=txt+"</info>";
+if(window.DOMParser){
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(txt,"text/xml");
+}
+else{
+xmlDoc= new ActiveXObject("Microsoft.XMLDOM");
+xmlDoc.async=false;
+xmlDoc.loadXML(txt);
+}
+document.getElementById("name").innerHTML = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+document.getElementById("familia").innerHTML = xmlDoc.getElementsByTagName("familia")[0].childNodes[0].nodeValue;
+document.getElementById("date").innerHTML = xmlDoc.getElementsByTagName("date")[0].childNodes[0].nodeValue;
+document.getElementById("otchestvo").innerHTML = xmlDoc.getElementsByTagName("otchestvo")[0].childNodes[0].nodeValue;
+</script>
+</body>

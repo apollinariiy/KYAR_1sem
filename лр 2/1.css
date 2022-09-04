@@ -1,0 +1,16 @@
+h1, h2, h3{
+    color: rgba(134, 7, 124, 0.822);
+    font: 16pt Monotype Corsiva;
+}
+ul.g li {color: rgba(185, 1, 1, 0.89);
+    font: 18pt Times New Roman;
+}
+ul.h {color: rgba(238, 255, 4, 0.89);
+    font: 20pt Times New Roman;
+}
+ ul.j li {color: rgba(16, 185, 1, 0.89);
+    font: 22pt Times New Roman;
+}
+table tr td {
+    color: rgba(4, 92, 255, 0.89);
+}

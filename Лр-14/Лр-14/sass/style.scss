@@ -1,0 +1,65 @@
+$bg_col: lightgrey;
+body {
+    background-color: $bg_col;
+}
+
+$font_col: green;
+$font_siz: 36px;
+.text_zad1 {
+    fill:green;
+    text-align: center;
+    font-size: $font_siz;
+}
+
+.svg_zad1 {
+    margin:7% 0 0 40%;
+}
+
+$stroke_wid: 3px;
+$font_col: purple;
+.svg_zad4_el1 {
+    stroke: $font_col;
+    stroke-width: $stroke_wid;
+}
+
+$font_col: red;
+.svg_zad4_el2 {
+    stroke: $font_col;
+    stroke-width: $stroke_wid;
+}
+
+$font_col: yellow;
+.svg_zad4_el3 {
+    stroke: $font_col;
+    stroke-width: $stroke_wid;
+}
+
+$font_col: green;
+.svg_zad4_el4 {
+    stroke: $font_col;
+    stroke-width: $stroke_wid;
+}
+
+$font_col: blue;
+.svg_zad4_el5 {
+    stroke: $font_col;
+    stroke-width: $stroke_wid;
+}
+
+$font_fac: "Arial Black";
+$font_col: crimson;
+$font_sz: 1.3em;
+.jop {
+    font-family: $font_fac;
+    color: $font_col;
+    font-size: $font_sz;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    color:block;
+    font-family: arial;
+}

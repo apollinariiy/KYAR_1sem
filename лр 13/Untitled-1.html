@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="name"></p>
+<p id="info"></p>
+<p id="name1"></p>
+<p id="info1"></p>
+<script>
+txt="<inf>";
+txt=txt+"<name>XLinks</name>";
+txt=txt+"<info>XLinks (XML Linking Language) — стандарт, который определяет правила создания гиперссылок в XML. Сравнивание создания ссылок с помощью XLinks и в HTML можно выделить следующие преимущества </info>";
+txt=txt+"<name1>XPointer</name1>";
+txt=txt+"<info1>XML Pointer Language — язык указателей XML. Указатель XPointer действует просто как идентификатор фрагмента, осуществляя связывание с элементом внутри целевого ресурса, имеющим атрибут ID.</info1>";
+txt=txt+"</inf>";
+if(window.DOMParser){
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(txt,"text/xml");
+}
+else{
+xmlDoc= new ActiveXObject("Microsoft.XMLDOM");
+xmlDoc.async=false;
+xmlDoc.loadXML(txt);
+}
+document.getElementById("name").innerHTML = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+document.getElementById("info").innerHTML = xmlDoc.getElementsByTagName("info")[0].childNodes[0].nodeValue;
+document.getElementById("info1").innerHTML = xmlDoc.getElementsByTagName("info1")[0].childNodes[0].nodeValue;
+document.getElementById("name1").innerHTML = xmlDoc.getElementsByTagName("name1")[0].childNodes[0].nodeValue;
+</script>
+</body>

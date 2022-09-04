@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="sass\style.css" type="text/css" />
+    <title>Задание 1.1</title>
+  </head>
+  <body>
+    <svg
+      class="svg_zad1"
+      width="400"
+      height="420"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <path
+          id="textpath"
+          fill="none"
+          stroke="#000000"
+          d="M80,170 C190,280 290,210 260,150 S460,110 360,170"
+        />
+      </defs>
+
+      <use xlink:href="#textpath" />
+      <text x="10" y="100" class="text_zad1">
+        <textPath xlink:href="#textpath">Какой-то текст текст текст</textPath>
+      </text>
+    </svg>
+  </body>
+</html>

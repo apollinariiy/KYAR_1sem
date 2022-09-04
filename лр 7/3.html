@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 300px;
+        }
+        img.one4{
+            width: 100px;
+        }
+        div.one { 
+position: relative;
+animation: around 4s linear infinite; }
+.one {
+animation-name: around;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-delay: 5s;
+animation-iteration-count: 2;
+animation-direction: alternate;
+animation-fill-mode: forwards; }
+@keyframes around {
+0% { left: 0; top: 0; }
+50% { left: 200px; top: 0; }
+100% { left: 0; top: 0; }
+}
+
+div.one1 { 
+position: relative;
+animation: around1 4s linear infinite; }
+.one1 {
+animation-name: around1;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-delay: 5s;
+animation-iteration-count: 2;
+animation-direction: alternate;
+animation-fill-mode: forwards; }
+@keyframes around1 {
+    0% { left: 0; top: 0; }
+50% { left: 0; top: 200px; }
+100% { left: 0; top: 0; }
+}
+
+div.one2 { 
+position: relative;
+animation: around2 4s linear infinite; }
+.one2 {
+animation-name: around2;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-delay: 5s;
+animation-iteration-count: 2;
+animation-direction: alternate;
+animation-fill-mode: forwards; }
+@keyframes around2 {
+    0% { left: 500px; top: -400px; }
+25% { left: 700px; top: -300px; }
+50% { left: 900px; top: -400px; }
+75% { left: 700px; top: -300px; }
+100% { left: 500px; top: -400px; }
+}
+
+div.one3 { 
+position: relative;
+animation: around3 4s linear infinite; 
+}
+.one3 {
+animation-name: around3;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-delay: 5s;
+animation-iteration-count: 2;
+animation-direction: alternate;
+animation-fill-mode: forwards; }
+@keyframes around3 {
+    0% { left: 600px; top: -200px; }
+25% { left: 800px; top: -200px; }
+50% { left: 800px; top: 0px; }
+75% { left: 600px; top: 0px; }
+100% { left: 600px; top: -200px; }
+
+}
+div.one4 { 
+position: relative;
+animation: around4 4s linear infinite; 
+}
+.one4 {
+animation-name: around3;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;
+animation-delay: 5s;
+animation-iteration-count: 2;
+animation-direction: alternate;
+animation-fill-mode: forwards; }
+@keyframes around4 {
+    0% { opacity: 0%;}
+50% { opacity: 80%; }
+100% { opacity: 0%; }
+
+}
+    </style>
+</head>
+<body>
+    <div class="one4">
+        <h1>Анимация движения</h1></div>
+    <div class="one">
+        <img src="2.png" alt="" /></div>
+        <div class="one1">
+            <img src="3.png" alt="" /></div>
+            <div class="one2">
+                <img src="4.png"  class="one4" alt="" /></div>
+                <div class="one3">
+                    <img src="5.png" class="one4" alt="" /></div>
+                   
+                    
+</body>
+</html>

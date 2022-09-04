@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="catalog1.xsl"?> 
+<catalog> 
+<cd> 
+<title>Иванов</title> 
+<artist>6</artist> 
+<opi>2</opi>
+<oap>5</oap>
+<alocvm>9</alocvm>
+</cd> 
+<cd> 
+<title>Смирнов</title> 
+<artist>9</artist>
+<opi>4</opi>
+<oap>3</oap>
+<alocvm>2</alocvm>
+</cd> 
+<cd> 
+<title>Голодок</title> 
+<artist>10</artist> 
+<opi>3</opi>
+<oap>7</oap>
+<alocvm>1</alocvm>
+</cd> 
+<cd> 
+<title>Викторович</title> 
+<artist>0</artist> 
+<opi>9</opi>
+<oap>5</oap>
+<alocvm>3</alocvm>
+</cd> 
+</catalog> 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:complexType  name="contact-info">>
+      <xs:sequence>
+         <xs:element name="name" type="xs:string"/>
+         <xs:element name="zag" type="xs:string"/>
+         <xs:element name="info" type="xs:string"/>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>

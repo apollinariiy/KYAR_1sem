@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="s.xslt"?>
+<Spec>
+  <odnogrupniki>
+    <firstname>Смирнов</firstname>
+    <name>6</name>
+    <ball>2</ball>
+    <year>7</year>
+  </odnogrupniki>
+
+  <odnogrupniki>
+    <firstname>Иванов </firstname>
+    <name>10</name>
+    <ball> 1</ball>
+    <year>6</year>
+  </odnogrupniki>
+
+  <odnogrupniki>
+    <firstname>Голодок</firstname>
+    <name> 5</name>
+    <ball>9</ball>
+    <year>7</year>
+  </odnogrupniki>
+
+  <odnogrupniki>
+    <firstname> Викторович</firstname>
+    <name> 9</name>
+    <ball> 10</ball>
+    <year>8</year>
+  </odnogrupniki>
+
+  
+</Spec>

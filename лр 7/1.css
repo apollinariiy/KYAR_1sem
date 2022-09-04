@@ -1,0 +1,97 @@
+
+div.one4 { 
+    animation: around4 4s linear infinite; 
+    }
+    @keyframes around4 {
+    0% { opacity: 0%;}
+    50% { opacity: 80%; }
+    100% { opacity: 0%; }
+    }
+            img{width:300px;
+                margin: 50px 70px 50px 70px;}
+            img.i1:hover{transform: scale(0.5) ;}
+            img.i2:hover{transform: rotate(45deg);}
+            img.i3:hover{transform: translate(50px)}
+            img.i4:hover{transform: skew(-20deg);}
+    .img5{transform: perspective(300px) rotateX(25deg);}
+    .img6{transform: perspective(300px) rotateY(45deg);}
+    .img7{transform: perspective(300px) rotateX(25deg);}
+    .img8{transform: perspective(300px) rotateY(-45deg);}
+    
+    
+    div.d1 {
+           width:300px;
+           height: 300px;
+    color: rgb(255,0,0);
+    transition: color 20s ease-in;
+    }
+    div.d1:hover {
+    color: rgb(0,0,255);
+    }    
+    .one9{width: 600px;
+        height: 600px;
+        background-image: url(1.jpg);
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+    }
+    div.one9 { 
+    position: relative;
+    animation: around9 5s linear infinite; }
+    @keyframes around9 {
+    0% {background-image: url(fon.jpg);}
+    25% {background-image: url(fon1.jpg);}
+    50% {background-image: url(fon2.jpg);}
+    75% {background-image: url(fon3.jpg); }
+    100% { background-image: url(fon4.jpg);}
+    }
+
+
+    div.one { 
+    position: relative;
+    animation: around 4s linear infinite; } 
+    @keyframes around {
+    0% { left: 0; top: 0; }
+    50% { left: 200px; top: 0; }
+    100% { left: 0; top: 0; }
+    }
+    div.one1 { 
+    position: relative;
+    animation: around1 4s linear infinite; }
+    @keyframes around1 {
+        0% { left: 0; top: 0; }
+    50% { left: 0; top: 200px; }
+    100% { left: 0; top: 0; }
+    }
+    div.one2 { 
+    position: relative;
+    animation: around2 4s linear infinite; 
+    width: 100px;}
+    @keyframes around2 {
+        0% { left: 500px; top: -400px; }
+    25% { left: 700px; top: -300px; }
+    50% { left: 900px; top: -400px; }
+    75% { left: 700px; top: -300px; }
+    100% { left: 500px; top: -400px; }
+    }
+    div.one3 { 
+    position: relative;
+    animation: around3 4s linear infinite; 
+    }
+    @keyframes around3 {
+        0% { left: 600px; top: -200px; }
+    25% { left: 800px; top: -200px; }
+    50% { left: 800px; top: 0px; }
+    75% { left: 600px; top: 0px; }
+    100% { left: 600px; top: -200px; }
+    }
+    div.one4 { 
+    position: relative;
+    animation: around4 4s linear infinite; 
+    }
+    @keyframes around4 {
+        0% { opacity: 0%;}
+    50% { opacity: 80%; }
+    100% { opacity: 0%; }
+    
+    }

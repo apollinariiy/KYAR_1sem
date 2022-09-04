@@ -1,0 +1,46 @@
+img{
+    width: 300px;
+    height: 200px;
+}
+figure{
+ background: #D8BFD8; 
+ padding: 10px; 
+ display: block;
+ width: 300px; 
+float: left;
+ margin: 10px 10px 10px 10px; 
+ text-align: center; 
+}
+figcaption{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@import url(4.css) (min-width:560px) and (max-width:760px); 
+.conteiner{
+    margin: 0 auto;
+    color: red;
+    padding: 0;
+    width: 70%;
+  display: flex; 
+  flex-flow: row wrap; 
+  justify-content: space-between;
+}
+@media only screen and (max-width: 1280px){
+    figcaption{
+        color: royalblue;
+        font-size: 18px;
+        font-family: Lucida Console;
+        font-style: italic;
+    }
+ }
+ 
+ @media only screen and (max-width: 480px){
+    figcaption{
+        color: salmon;
+        font-size: 12px;
+        font-family: Times, Times New Roman, Georgia, serif;
+        font-style: normal;
+    }
+ }
+ 
